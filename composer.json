@@ -1,0 +1,20 @@
+{
+    "name": "achrafsoltani/php-similarity-metrics",
+    "description": "Similarity Metrics for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AchrafSoltani\\PhpSimilarityMetrics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Achraf Soltani",
+            "email": "achraf.soltani@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    }
+}
