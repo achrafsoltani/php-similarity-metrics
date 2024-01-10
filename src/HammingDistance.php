@@ -2,7 +2,7 @@
 
 namespace AchrafSoltani\PhpSimilarityMetrics;
 
-class HammingDistance implements ComputerInterface
+class HammingDistance implements ComputeInterface
 {
     private $operand1;
     private $operand2;

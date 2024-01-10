@@ -2,7 +2,7 @@
 
 namespace AchrafSoltani\PhpSimilarityMetrics;
 
-interface ComputerInterface
+interface ComputeInterface
 {
     public function compute();
 }
