@@ -3,6 +3,7 @@
     "description": "Similarity Metrics for PHP",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.3",
     "autoload": {
         "psr-4": {
             "AchrafSoltani\\PhpSimilarityMetrics\\": "src/"
