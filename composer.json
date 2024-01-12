@@ -1,21 +1,21 @@
 {
-    "name": "achrafsoltani/php-similarity-metrics",
-    "description": "Similarity Metrics for PHP",
-    "type": "library",
-    "license": "MIT",
-    "version": "1.0.3",
-    "autoload": {
-        "psr-4": {
-            "AchrafSoltani\\PhpSimilarityMetrics\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Achraf Soltani",
             "email": "achraf.soltani@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "AchrafSoltani\\PhpSimilarityMetrics\\": "src/"
+        }
+    },
+    "description": "Similarity Metrics for PHP",
+    "license": "MIT",
+    "name": "achrafsoltani/php-similarity-metrics",
     "require": {
         "php": ">=8.0.0"
-    }
+    },
+    "type": "library",
+    "version": "1.0.3"
 }
