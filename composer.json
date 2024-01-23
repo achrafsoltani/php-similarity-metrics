@@ -17,5 +17,5 @@
         "php": ">=8.0.0"
     },
     "type": "library",
-    "version": "1.0.3"
+    "version": "1.0.4"
 }
