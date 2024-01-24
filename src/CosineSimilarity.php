@@ -33,10 +33,10 @@ class CosineSimilarity implements ComputeInterface
                             )
                         );
          */
-        $dot = Similarity::dot(call_user_func_array("array_merge", array_column($this->matrix, "tags")));
+        $dot = $this->dot(call_user_func_array("array_merge", array_column($this->matrix, "tags")));
         // $this->vector = array('key1', 'key2', 'keyN');
         foreach($this->matrix as $element) {
-            $score[$element['element']] = Similarity::cosine($this->vector, $element['tags'], $dot);
+            $score[$element['element']] = $this->cosine($this->vector, $element['tags'], $dot);
         }
         asort($score);
         return $score;
